@@ -256,7 +256,8 @@ public class GameManager : MonoBehaviour
     private void EndGame()
     {
         gameStart = false;
-        panel.SetActive(false);
+        canvasGamePlay.enabled = false;
+       // panel.SetActive(false);
     }
     public void GiveUp()
     {
